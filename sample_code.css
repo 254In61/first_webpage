@@ -1,0 +1,83 @@
+
+/* Section for the whole body.Influences the whole page */
+
+body{
+    background-color: lightblue;
+    background-image: url("black_panther.jpg");
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    background-size: 200px 200px;
+    font-family: Verdana, sans-serif;
+}
+
+/* Format of the headings h1 & h2 */
+h1,h2{
+    color: blue;
+    background-color: rosybrown;
+    text-align: center;
+    text-decoration: underline;
+    /*text-shadow: 2px 2px;*/
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+    border-block-color: red;
+    font-family: Georgia, serif;
+    
+}
+
+div {
+    padding: 25px 50px 75px 100px;
+}
+
+/* Format of the paragraphs */
+p{  
+    /*https://www.w3schools.com/css/css3_colors.asp*/
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    /*text-align: center;*/
+    border-style: dashed;
+    border-color: red;
+    border-block-color: purple;
+    color: white;
+}
+/* Section to fashion the links*/
+/* unvisited link : Not yet clicked on. a normal, unvisited link */
+a {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* visited link : a link the user has visited */
+a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* mouse over link : a link when the user mouses over it  */
+a:hover {
+    color: hotpink;
+}
+
+/* Active link :  a link the moment it is clicked */
+a:active {
+    color: blue;
+}
+
+/* Set image properties */
+img {
+    opacity: 1.5;
+    translate: (50px, 100px);
+    /*transform: rotate(90deg);*/
+    /*transform: scale(2,3);*/
+}
+
